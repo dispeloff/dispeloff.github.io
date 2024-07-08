@@ -1,0 +1,53 @@
+.errmain {
+    text-align: center;    
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #567; /* Background color of the navbar */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 1.5rem; /* Adjust spacing between links */
+}
+
+.nav-links a {
+    color: #fff; /* Text color of the links */
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-links a:hover {
+    color: #f0a500;
+}
+
+main {
+    padding-top: 4rem; /* Adjust according to the height of your header */
+}
+
+section {
+    padding: 2rem;
+    /* text-align: center; */
+}
